@@ -33,32 +33,27 @@ useEffect(() => {
         </div>
 
         <div className={hamClass}>
-        <div className='pl-9'>ABOUT</div>
+        <div className='pl-9' onClick={ReverseAnimation}>BUY PASSES</div>
           <div className='pr-9'><BsBoxArrowUpRight size={30} color="#171717ff"  /></div>
         </div>
 
         <div className={hamClass}>
-        <div className='pl-9'>BUY PASSES</div>
+        <div className='pl-9' onClick={ReverseAnimation}><HashLink smooth to="/#Eventsec">EVENTS</HashLink></div>
           <div className='pr-9'><BsBoxArrowUpRight size={30} color="#171717ff"  /></div>
         </div>
 
         <div className={hamClass}>
-        <div className='pl-9'>EVENTS</div>
+        <div className='pl-9' onClick={ReverseAnimation}><HashLink smooth to="/#sponsor">SPONSORS</HashLink></div>
           <div className='pr-9'><BsBoxArrowUpRight size={30} color="#171717ff"  /></div>
         </div>
 
         <div className={hamClass}>
-        <div className='pl-9'>OUR SPONSORS</div>
-          <div className='pr-9'><BsBoxArrowUpRight size={30} color="#171717ff"  /></div>
-        </div>
-
-        <div className={hamClass}>
-        <div className='pl-9'>SCHEDULE</div>
+        <div className='pl-9' onClick={ReverseAnimation}><HashLink smooth to="/#schedule">SCHEDULE</HashLink></div>
           <div className='pr-9'><BsBoxArrowUpRight size={30} color="#171717ff"  /></div>
         </div>
 
         <div className={hamClassLast}>
-        <div className='pl-9'>TIME</div>
+        <div className='pl-9' onClick={ReverseAnimation}>TIME</div>
           <div className='pr-9'><BsBoxArrowUpRight size={30} color="#171717ff"  /></div>
         </div>
         
